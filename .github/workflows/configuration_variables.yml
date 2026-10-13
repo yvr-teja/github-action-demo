@@ -13,6 +13,6 @@ jobs:
       Greeting: Hello
     steps:
       - name: "Say Hello to Teja"
-        run: echo "$Greeking $First_Name is using $cloud with project ${{ vars.PROJECT_ID }}!"
+        run: echo "$Greeting $First_Name is using $cloud with project ${{ vars.PROJECT_ID }}!"
         env:
           First_Name: Teja
