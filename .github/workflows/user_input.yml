@@ -3,7 +3,7 @@ name: Testing User Input Workflow
 #Controls when the action will run. Workflow runs when manually triggered using the UI or API
 on:
    workflow_dispatch:
-   	#Input the workflow accepts.
+   #Input the workflow accepts.
     inputs:
          number1:
           #Friendly description to be shown in the UI instead of 'number1'
